@@ -15,6 +15,7 @@ import fr.openwide.core.basicapp.core.business.BasicApplicationCoreCommonBusines
 import fr.openwide.core.basicapp.core.config.hibernate.HibernateConfigPackage;
 import fr.openwide.core.basicapp.core.config.util.FlywayConfiguration;
 import fr.openwide.core.jpa.config.spring.provider.JpaPackageScanProvider;
+import fr.openwide.core.jpa.more.config.util.FlywayConfiguration;
 import fr.openwide.core.jpa.security.config.spring.AbstractConfiguredJpaSecurityJpaConfig;
 
 @Configuration
