@@ -166,6 +166,7 @@
 		
 		<owsi-core.passay.version>1.1.0</owsi-core.passay.version>
 		<owsi-core.java-object-diff.version>0.92</owsi-core.java-object-diff.version>
+		<owsi-core.elasticsearch.version>2.4.4</owsi-core.elasticsearch.version>
 		
 		<owsi-core.localization-properties-consistency-maven-plugin.version>1.0.0</owsi-core.localization-properties-consistency-maven-plugin.version>
 	</properties>
@@ -1170,6 +1171,13 @@
 					<groupId>javax.servlet.jsp</groupId>
 					<artifactId>jsp-api</artifactId>
 					<version>${owsi-core.jsp-api.version}</version>
+				</dependency>
+				
+				<!-- Elasticsearch -->
+				<dependency>
+					<groupId>org.elasticsearch</groupId>
+					<artifactId>elasticsearch</artifactId>
+					<version>${owsi-core.elasticsearch.version}</version>
 				</dependency>
 			
 			<!-- Test dependencies -->
